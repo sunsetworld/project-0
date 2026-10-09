@@ -1,0 +1,121 @@
+/* ---------- Colours: change these to restyle the whole page ---------- */
+:root {
+  --page: #1b1b24;
+  --ink: #f2efe6;
+  --card: #2a2a38;
+  --link: #9ad1ff;
+}
+
+/* ---------- Basics ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: var(--page);
+  color: var(--ink);
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+}
+
+/* ---------- Layout: object on the left, card on the right ---------- */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+/* ---------- The object ---------- */
+/* script.js sets the width and height from assets/parts.json */
+#object {
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* Each part is a box exactly one frame in size (--w by --h).
+   Its sprite sheet is the box's background, so only one frame shows.
+   Moving the background sideways changes the frame.
+   steps() makes it jump from frame to frame instead of sliding. */
+.part {
+  position: absolute;
+  width: var(--w);
+  height: var(--h);
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  pointer-events: none;   /* the box itself ignores the mouse; see .hit below */
+  transition: background-position-x 0.7s steps(var(--steps));
+  /* A thin pale edge, so dark parts still show on a dark page */
+  filter: drop-shadow(0 0 1px var(--ink));
+}
+
+.part:hover {
+  filter: brightness(1.2) drop-shadow(0 0 4px var(--ink));
+}
+
+/* "apart" shows the last frame: the sheet is pulled all the way to the left */
+.part.apart {
+  background-position-x: calc(var(--w) * var(--steps) * -1);
+}
+
+/* The clickable area of a part. script.js places it over the part itself,
+   so the empty space the part travels through does not catch clicks. */
+.hit {
+  position: absolute;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+/* ---------- The card ---------- */
+#card {
+  width: 24rem;      /* a fixed width, so the object does not shift when the text changes */
+  max-width: 100%;
+  min-height: 16rem;
+  padding: 1.5rem;
+  background: var(--card);
+  border: 3px solid var(--ink);
+}
+
+#card h2 {
+  margin-top: 0;
+}
+
+#card-source {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+#card-source a {
+  color: var(--link);
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background: var(--ink);
+  color: var(--page);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffffff;
+}
+
+#model-output {
+  margin-top: 1rem;
+  font-style: italic;
+}

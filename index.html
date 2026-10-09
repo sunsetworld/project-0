@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CHANGE ME: the title of your piece -->
+  <title>The Weight of a Click</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <!-- CHANGE ME: your title and your instruction to the visitor -->
+    <h1>The Weight of a Click</h1>
+    <p>Click a part of the smart glasses to take it apart.</p>
+  </header>
+
+  <main>
+    <!-- The object. script.js adds one box here for every part in assets/parts.json -->
+    <section id="object" aria-label="An object made of parts you can click"></section>
+
+    <!-- The card that shows what each part reveals -->
+    <section id="card">
+      <h2 id="card-title">Pick a part</h2>
+      <p id="card-fact">Each part hides a cost you cannot see.</p>
+      <p id="card-source"></p>
+      <button id="ask-button" hidden>Ask the model</button>
+      <p id="model-output"></p>
+    </section>
+  </main>
+
+  <footer>
+    <!-- CHANGE ME: your name and credits -->
+    <p>Project 0 template. Facts are loaded from data/facts.json.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

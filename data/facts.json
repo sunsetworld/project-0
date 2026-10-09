@@ -1,0 +1,37 @@
+[
+  {
+    "parts": ["camera"],
+    "title": "The camera: who gets recorded",
+    "fact": "Rokid's smart glasses carry a 12-megapixel camera in the frame. In a 2026 survey, 65 to 90% of bystanders said they would take defensive action around camera glasses, most often by avoiding the camera.",
+    "source": "Wang et al., Mind the Gap, CHI 2026",
+    "url": "https://arxiv.org/abs/2603.04930"
+  },
+  {
+    "parts": ["button"],
+    "title": "The button: one press, no warning",
+    "fact": "One press on the arm of the glasses starts a recording. In a 2024 study, people who wore camera glasses judged the privacy indicators ineffective, and said the design hides the technology from those nearby.",
+    "source": "Bhardwaj et al., In Focus, Out of Privacy, CHI 2024",
+    "url": "https://cispa.de/en/research/publications/78814-in-focus-out-of-privacy-the-wearer-s-perspective-on-the-privacy-dilemma-of-camera-glasses"
+  },
+  {
+    "parts": ["microphone"],
+    "title": "The microphone: where your voice goes",
+    "fact": "Four microphones listen for the wearer's voice. In 2023 Amazon paid $25 million after US regulators said it kept children's Alexa voice recordings indefinitely and used them to train its algorithm.",
+    "source": "US Federal Trade Commission, 2023",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever"
+  },
+  {
+    "parts": ["speaker1", "speaker2"],
+    "title": "The speaker: where the magnet comes from",
+    "fact": "Speakers this small usually depend on rare-earth magnets. China mined 69.2% of the world's rare earths in 2025 and processes nearly 90% of them.",
+    "source": "Mining Technology, 2026",
+    "url": "https://www.mining-technology.com/analyst-comment/china-dominate-rare-earths/"
+  },
+  {
+    "parts": ["lens1", "lens2"],
+    "title": "The lens: where the attention goes",
+    "fact": "Each lens holds a small green display that only the wearer can see. In a 2017 driving-simulator study, messaging through a glasses display distracted drivers less than a phone did, but the researchers still judged it unsafe when driving is already demanding.",
+    "source": "Tippey, Sivaraj and Ferris, Human Factors, 2017",
+    "url": "https://doi.org/10.1177/0018720817691406"
+  }
+]
