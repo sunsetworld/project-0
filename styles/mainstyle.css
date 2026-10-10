@@ -1,12 +1,19 @@
-body {
-    background-color: #2D5A27;
-}
-
 h1 {
     font-family: Geneva, Verdana, sans-serif;
 }
 
 p {
     font-family: Georgia, serif;
+}
+
+.sprite {
+  width: 548px;
+  height: 423px;
+  background: url("../images/spritesheet.png") 0 0 / 2740px 423px no-repeat;
+  animation: play 3s steps(5) infinite;
+}
+
+@keyframes play {
+  to { background-position: -2740px 0; }
 }
 
