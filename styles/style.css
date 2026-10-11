@@ -27,6 +27,11 @@ footer {
 h1 {
   margin: 0 0 0.25rem;
   font-size: 2rem;
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: Georgia, serif;
 }
 
 /* ---------- Layout: object on the left, card on the right ---------- */
@@ -118,4 +123,21 @@ button:hover {
 #model-output {
   margin-top: 1rem;
   font-style: italic;
+}
+
+.sprite {
+  width: 548px;
+  height: 423px;
+  background: url("../images/spritesheet.png") 0 0 / 2740px 423px no-repeat;
+  animation: play 3s steps(5) infinite;
+}
+
+@keyframes play {
+  to { background-position: -2740px 0; }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
