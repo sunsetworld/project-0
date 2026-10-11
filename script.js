@@ -18,13 +18,14 @@ const PROVIDER = "ollama";
 
 // Where a local Ollama model listens, and which model to use
 const OLLAMA_URL = "http://localhost:11434/api/generate";
-const OLLAMA_MODEL = "gemma3:1b";
+const OLLAMA_MODEL = "gemma3:4b";
 
 // What you ask the model. The fact is added to the end.
 const PROMPT =
-  "You are a thoughtful commentator. In two short sentences, reflect on the human " +
-  "and environmental meaning of this fact. Do not lecture. Fact: ";
-
+/*   "You are a thoughtful commentator. In two short sentences, reflect on the human " +
+  "and environmental meaning of this fact. Do not lecture. Fact: "; */
+  "In two short sentences, write a satirical but thoughtful and meaningful reply to the facts. " +
+  "Aim the satirical side at big tech. Reflect on the social and environmental costs. Fact: ";
 
 // ---------- 1. Page elements ----------
 
