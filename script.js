@@ -14,7 +14,7 @@
 // Which language model answers: "ollama", "claude" or "openai".
 //   "ollama" runs on your own computer and needs no key.
 //   "claude" and "openai" need an API key and the helper in server.js (see README).
-const PROVIDER = "ollama";
+const PROVIDER = "claude";
 
 // Where a local Ollama model listens, and which model to use
 const OLLAMA_URL = "http://localhost:11434/api/generate";
@@ -24,8 +24,8 @@ const OLLAMA_MODEL = "gemma3:4b";
 const PROMPT =
 /*   "You are a thoughtful commentator. In two short sentences, reflect on the human " +
   "and environmental meaning of this fact. Do not lecture. Fact: "; */
-  "In two short sentences, write a satirical but thoughtful and meaningful reply to the facts. " +
-  "Aim the satirical side at big tech. Reflect on the social and environmental costs. Fact: ";
+  "You are a critical technology journalist. In two short sentences, thoughtful and meaningful reply to the facts. " +
+  "Reflect on the social and environmental costs, especially for the end consumer. Fact: ";
 
 // ---------- 1. Page elements ----------
 
