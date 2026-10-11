@@ -1,37 +1,30 @@
 [
   {
-    "parts": ["camera"],
-    "title": "The camera: who gets recorded",
-    "fact": "Rokid's smart glasses carry a 12-megapixel camera in the frame. In a 2026 survey, 65 to 90% of bystanders said they would take defensive action around camera glasses, most often by avoiding the camera.",
-    "source": "Wang et al., Mind the Gap, CHI 2026",
-    "url": "https://arxiv.org/abs/2603.04930"
+    "parts": ["joysticks"],
+    "title": "the joysticks: a part you can wear out",
+    "fact": "The type of joysticks that are commonly employed on game consoles are prone to wearing out and producing stick drift. Nintendo did not change this with the Nintendo Switch 2 (2025), despite alternative, drift-free sticks on the market.",
+    "source": "Chamberlain, E. (2025)",
+    "url": "https://www.ifixit.com/News/110926/switch-2-teardown"
   },
   {
-    "parts": ["button"],
-    "title": "The button: one press, no warning",
-    "fact": "One press on the arm of the glasses starts a recording. In a 2024 study, people who wore camera glasses judged the privacy indicators ineffective, and said the design hides the technology from those nearby.",
-    "source": "Bhardwaj et al., In Focus, Out of Privacy, CHI 2024",
-    "url": "https://cispa.de/en/research/publications/78814-in-focus-out-of-privacy-the-wearer-s-perspective-on-the-privacy-dilemma-of-camera-glasses"
+    "parts": ["ram-ssd"],
+    "title": "The RAM and SSD: A shared mother, an AI-induced price explosion",
+    "fact": "RAM and SSD are memory chips, and normally these would be pretty cheap chips, but thanks to the AI explosion, prices for these components have shot through the roof, and that means higher priced computers, including games consoles.",
+    "source": "Sullivan, E. (2026)",
+    "url": "https://www.scientificamerican.com/article/the-ai-data-center-boom-could-cause-a-nintendo-switch-2-memory-shortage/"
   },
   {
-    "parts": ["microphone"],
-    "title": "The microphone: where your voice goes",
-    "fact": "Four microphones listen for the wearer's voice. In 2023 Amazon paid $25 million after US regulators said it kept children's Alexa voice recordings indefinitely and used them to train its algorithm.",
-    "source": "US Federal Trade Commission, 2023",
+    "parts": ["battery"],
+    "title": "The battery: an enviromental and human rights nightmare",
+    "fact": "A lithium-ion battery, an essential part of portable games consoles and most modern electronics, is a nightmare for both humans and the environment. Extraction of lithium and cobalt, child labour and unsafe conditions, in places like the Democratic Republic of the Congo (DRC)",
+    "source": "Editorial. (2021)",
     "url": "https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever"
   },
   {
-    "parts": ["speaker1", "speaker2"],
-    "title": "The speaker: where the magnet comes from",
-    "fact": "Speakers this small usually depend on rare-earth magnets. China mined 69.2% of the world's rare earths in 2025 and processes nearly 90% of them.",
-    "source": "Mining Technology, 2026",
-    "url": "https://www.mining-technology.com/analyst-comment/china-dominate-rare-earths/"
-  },
-  {
-    "parts": ["lens1", "lens2"],
-    "title": "The lens: where the attention goes",
-    "fact": "Each lens holds a small green display that only the wearer can see. In a 2017 driving-simulator study, messaging through a glasses display distracted drivers less than a phone did, but the researchers still judged it unsafe when driving is already demanding.",
-    "source": "Tippey, Sivaraj and Ferris, Human Factors, 2017",
-    "url": "https://doi.org/10.1177/0018720817691406"
+    "parts": ["cpu"],
+    "title": "The CPU: Electronics with potentially harmful minerals",
+    "fact": "CPUs are electronics conponents, which rely on the production of 4 conflict minerals, tin, tungsten, tantalium and gold. These are often sourced from countries like the Congo, where it can be a potential source for funding of violence, corruption and human rights abuses. Nintendo says that 311 of its contracted smelters and refineries are compliant with its auditing policies, and only 1 refinery based in China was not compliant.",
+    "source": "Valentine, R. (2026)",
+    "url": "https://kotaku.com/gaming-companies-hardware-conflict-minerals-2025-2000702545"
   }
 ]
