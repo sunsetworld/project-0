@@ -14,7 +14,7 @@
 // Which language model answers: "ollama", "claude" or "openai".
 //   "ollama" runs on your own computer and needs no key.
 //   "claude" and "openai" need an API key and the helper in server.js (see README).
-const PROVIDER = "claude";
+const PROVIDER = "openai";
 
 // Where a local Ollama model listens, and which model to use
 const OLLAMA_URL = "http://localhost:11434/api/generate";
@@ -189,3 +189,4 @@ askButton.addEventListener("click", async () => {
 // point of view of extraction, one from care and repair) and show both.
 
 start();
+
