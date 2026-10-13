@@ -1,9 +1,9 @@
 /* ---------- Colours: change these to restyle the whole page ---------- */
 :root {
-  --page: #1b1b24;
-  --ink: #f2efe6;
-  --card: #2a2a38;
-  --link: #9ad1ff;
+  --page: #FFFFFF;
+  --ink: #000000;
+  --card: #249465;
+  --link: #BC412B;
 }
 
 /* ---------- Basics ---------- */
@@ -160,5 +160,5 @@ ul li a:hover{
 }
 
 ul li a.active-page {
-  background-color: #04aa6d;
+  background-color: #249465;
 }
