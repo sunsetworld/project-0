@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CHANGE ME: the title of your piece -->
+  <title>Portable Games Console: The Hidden Costs</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>project 0</h1>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a class="active-page">project</a></li>
+      <li><a href="desk-research.html">desk research</a></li>
+      <li><a href="moodboard.html">mood board</a></li>
+    </ul>
+    <!-- CHANGE ME: your title and your instruction to the visitor -->
+    <h1>Portable Games Console: The Hidden Costs</h1>
+    <p>Click a part of the portable console to get a fact.</p>
+  </header>
+
+  <main>
+    <!-- The object. script.js adds one box here for every part in assets/parts.json -->
+    <section id="object" aria-label="An object made of parts you can click"></section>
+
+    <!-- The card that shows what each part reveals -->
+    <section id="card">
+      <h2 id="card-title">Pick a part</h2>
+      <p id="card-fact">Our electronic devices contain hidden lives that the end consumer doesn't see.</p>
+      <p id="card-source"></p>
+      <button id="ask-button" hidden>Ask the AI model</button>
+      <p id="model-output"></p>
+    </section>
+  </main>
+
+  <footer>
+    <!-- CHANGE ME: your name and credits -->
+    <p>project 0 by Sam Cox. Facts are loaded from data/facts.json.</p>
+    <p>uses project 0 template: <a href="https://github.com/Geitenkaas/CreativeTech_Project0">Link</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
