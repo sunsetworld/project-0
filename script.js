@@ -24,7 +24,7 @@ const OLLAMA_MODEL = "gemma3:4b";
 const PROMPT =
 /*   "You are a thoughtful commentator. In two short sentences, reflect on the human " +
   "and environmental meaning of this fact. Do not lecture. Fact: "; */
-  "Respond in English and then translate the response in Simplified Chinese and print both results. " +
+  "Respond in English and then translate the response in Simplified Chinese and print both results. Format both neatly. " +
   "Format it so the English prompts are first and then the Chinese prompts follow. " +
   "Call the model twice with 2 PoVs, one from the point of extraction and the other from the point of care and repair. " +
   "You are a critical technology journalist. In two short sentences, provide a thoughtful and meaningful reply to the facts. Fact: ";
