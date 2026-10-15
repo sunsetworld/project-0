@@ -24,8 +24,10 @@ const OLLAMA_MODEL = "gemma3:4b";
 const PROMPT =
 /*   "You are a thoughtful commentator. In two short sentences, reflect on the human " +
   "and environmental meaning of this fact. Do not lecture. Fact: "; */
-  "You are a critical technology journalist. In two short sentences, thoughtful and meaningful reply to the facts. " +
-  "Reflect on the social and environmental costs, especially for the end consumer. Fact: ";
+  "Respond in English and then translate the response in Simplified Chinese and print both results. " +
+  "Format it so the English prompts are first and then the Chinese prompts follow. " +
+  "Call the model twice with 2 PoVs, one from the point of extraction and the other from the point of care and repair. " +
+  "You are a critical technology journalist. In two short sentences, provide a thoughtful and meaningful reply to the facts. Fact: ";
 
 // ---------- 1. Page elements ----------
 
